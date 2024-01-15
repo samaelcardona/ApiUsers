@@ -4,10 +4,15 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+ branches:
+   include:
+     - dev
+
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: "windows-latest"
+
+variables:
 
 steps:
 - script: echo Hello, world!
