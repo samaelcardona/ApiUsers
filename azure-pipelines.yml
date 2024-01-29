@@ -15,8 +15,8 @@ pool:
 variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution: '**/samaelcardona.ApiUsers.sln'
-  project: '**/samaelcardona.ApiUsers.csproj'
+  solution: '**/ApiUsers.sln'
+  project: '**/ApiUsers.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
