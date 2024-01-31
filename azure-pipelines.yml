@@ -8,7 +8,6 @@ trigger:
    include:
      - dev
      - cert
-     - master
 
 pool:
   vmImage: 'windows-latest'
